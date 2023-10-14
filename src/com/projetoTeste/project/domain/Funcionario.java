@@ -27,10 +27,11 @@ public class Funcionario extends Pessoas {
     @Override
     public String toString() {
         return "Funcionario{" +
-                "horarioDeTrabalho='" + horarioDeTrabalho + '\'' +
-                ", salario=" + salario +
-                ", nome='" + nome + '\'' +
-                ", idade=" + idade +
+                "horarioDeTrabalho: " + horarioDeTrabalho + '\'' +
+                " salario: " + salario +
+                " nome: " + nome + '\'' +
+                " idade: " + idade +
                 '}';
     }
+
 }

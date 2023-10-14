@@ -10,7 +10,6 @@ public class FuncionarioBrinquedos extends Funcionario implements PagamentoSegur
         super(nome, horarioDeTrabalho);
         this.brinquedo = brinquedo;
         this.rendimentoBrinquedo = 0;
-        this.salario = 1300;
 
     }
 
